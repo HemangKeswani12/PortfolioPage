@@ -1,0 +1,43 @@
+h1 {
+    color: rgb(0, 194, 253);
+}
+
+/* * {
+    border: solid;
+} */
+
+.header{
+    background-color: rgb(7, 6, 59);
+    text-decoration-color: hsl(194, 100%, 50%);
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: center;
+}
+
+.site-description{
+    display: flex;
+    font-family:cursive;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+}
+
+p,h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+a:link{
+    color: azure;
+    background-color: transparent;
+}
